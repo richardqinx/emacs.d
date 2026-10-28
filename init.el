@@ -61,6 +61,9 @@
 
 (require 'init-packages)
 (require 'init-defaults)
+(require 'init-files)
+(require 'init-session)
+(require 'init-keybindings)
 
 
 ;; ------------------------------------------------------------

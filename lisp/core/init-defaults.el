@@ -38,19 +38,6 @@
 (delete-selection-mode 1)
 
 
-;; ------------------------------------------------------------
-;; History
-;; ------------------------------------------------------------
-
-(setq savehist-file
-      (expand-file-name "var/savehist" user-emacs-directory))
-
-(setq save-place-file
-      (expand-file-name "var/places" user-emacs-directory))
-
-(savehist-mode 1)
-(save-place-mode 1)
-
 (provide 'init-defaults)
 
 ;;; init-defaults.el ends here
