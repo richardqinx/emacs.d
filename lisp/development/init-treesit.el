@@ -9,7 +9,7 @@
 ;;; Commentary:
 
 ;; Configure built-in Tree-sitter integration.
-;; Use treesit-auto to select supported major modes and grammars.
+;; Manage grammars only for explicitly selected languages.
 
 ;;; Code:
 
@@ -30,7 +30,11 @@
   :if (treesit-available-p)
 
   :custom
-  ;; Ask before downloading and compiling a missing grammar.
+  ;; Languages managed by treesit-auto.
+  (treesit-auto-langs
+   '(c cpp python cmake bash json yaml toml))
+
+  ;; Ask before installing grammar libraries.
   (treesit-auto-install 'prompt)
 
   :config

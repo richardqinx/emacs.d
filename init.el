@@ -110,6 +110,19 @@
 
 
 ;; ------------------------------------------------------------
+;; Language modules
+;; ------------------------------------------------------------
+
+(require 'init-c)
+(require 'init-cpp)
+(require 'init-python)
+(require 'init-verilog)
+(require 'init-cmake)
+(require 'init-shell)
+(require 'init-data)
+
+
+;; ------------------------------------------------------------
 ;; Custom settings
 ;; ------------------------------------------------------------
 
