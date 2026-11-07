@@ -11,3 +11,8 @@
 *~
 \#*\#
 .\#*
+
+# Tree-sitter grammar libraries
+/tree-sitter/
+
+projects

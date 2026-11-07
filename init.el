@@ -97,6 +97,19 @@
 
 
 ;; ------------------------------------------------------------
+;; Development modules
+;; ------------------------------------------------------------
+
+(require 'init-project)
+(require 'init-lsp)
+(require 'init-treesit)
+(require 'init-diagnostics)
+(require 'init-format)
+(require 'init-debug)
+(require 'init-git)
+
+
+;; ------------------------------------------------------------
 ;; Custom settings
 ;; ------------------------------------------------------------
 
